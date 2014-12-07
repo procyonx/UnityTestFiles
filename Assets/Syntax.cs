@@ -3,9 +3,9 @@ using System.Collections;
 
 public class Syntax : MonoBehaviour {
 
-	public bool boolean1=false;	// [!] public allows other scripst to access this information if needed. (accessibility)
+	public bool boolean1=true;	// [!] public allows other scripst to access this information if needed. (accessibility)
 		// will appear as a field in the inspector within Unity when script is dragged onto a game object**.
-	private bool boolean2=true;	// private vars can only be used inside this file. (accessibility)
+	private bool boolean2=false;	// private vars can only be used inside this file. (accessibility)
 		// bool is a TRUE/FALSE (1/0) value
 
 	// **bools show up as a check box within the inspector.
@@ -16,8 +16,8 @@ public class Syntax : MonoBehaviour {
 	 		Think of creating public int x=20; If I go into the inspector and change x to 30, it is the same as if I had coded x=30; in here. 
 	 		x will now be 30 forever, until it is overridden in some way after that change was made (or you reset the script) */
 
-	public int integer1 = 1;
-	public float floatingPoint1 = 1.1f; // decimals must have the f after them
+	public int integer1 = 2;
+	public float floatingPoint1 = 5.0f; // decimals must have the f after them
 
 	// Use this for initialization
 	void Start () {

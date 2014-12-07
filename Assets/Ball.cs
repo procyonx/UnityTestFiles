@@ -16,8 +16,6 @@ public class Ball : MonoBehaviour {
 		bool test = true; // remember that this test variable is local so it will be destroyed once this function (Start()) is done.
 		test = !test; // works! w00t! Basically, this says test equals the opposite (!) value of its current value; only works with bools.
 		Debug.Log (test);
-
-		ChangeWallColor ();
 	}
 
 	// Update is called once per frame
